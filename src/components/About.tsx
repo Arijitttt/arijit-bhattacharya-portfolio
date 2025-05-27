@@ -11,13 +11,13 @@ export const About = () => {
     },
     {
       icon: <Lightbulb className="w-8 h-8" />,
-      title: "Creative Solutions",
-      description: "Thinking outside the box to solve complex problems with innovative approaches."
+      title: "Creative Problem Solving",
+      description: "Applying competitive programming techniques and logical reasoning to tackle complex challenges in innovative ways."
     },
     {
       icon: <Rocket className="w-8 h-8" />,
-      title: "Fast Delivery",
-      description: "Delivering high-quality projects on time with attention to detail."
+      title: "Fast & Reliable Delivery",
+      description: "Building and deploying robust full-stack applications on time, with a focus on functionality, performance, and user experience."
     }
   ];
 
@@ -34,9 +34,7 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate full-stack developer with a love for creating innovative digital experiences. 
-            With expertise in modern web technologies and a keen eye for design, I bring ideas to life 
-            through clean, efficient code and stunning user interfaces.
+           I'm a dedicated full-stack web developer and a passionate competitive programmer with a strong grasp of data structures and algorithms. With over 100+ problems solved on LeetCode and a solid command of Python, I bring efficient problem-solving skills into real-world web applications. My expertise spans both frontend and backend technologies, ensuring scalable, high-performance solutions.
           </p>
         </motion.div>
 

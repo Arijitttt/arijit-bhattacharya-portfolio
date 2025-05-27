@@ -43,7 +43,7 @@ export const Hero = () => {
             transition={{ duration: 1, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-300 mb-8"
           >
-            Full Stack Developer & Creative Technologist
+            ode-Centric Full Stack Developer & UI Innovator
           </motion.p>
 
           <motion.div

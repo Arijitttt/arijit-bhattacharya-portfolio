@@ -1,31 +1,35 @@
 
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
+import img1 from '../images/1st_project_img.jpg'
+import img2 from '../images/img_2.png'
+import img3 from '../images/img_3.png'
+
 
 export const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and payment processing.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "#",
+      title: "EcoNav",
+      description: "a web-based navigation system utilizing Google Maps API to provide environmentally friendly routes, estimate CO2 emissions based on vehicle engine characteristics, and promote sustainable travel habits through an intuitive user interface.",
+      image: img1,
+      technologies: ["Javascript", "Python", "Flask", "HTML", "CSS", "Google Maps API"],
+      github: "https://github.com/Arijitttt/EcoNav",
       live: "#"
     },
     {
-      title: "AI Chat Application",
-      description: "Real-time chat application with AI integration using WebSocket connections and natural language processing for intelligent responses.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-      technologies: ["Next.js", "WebSocket", "OpenAI API", "PostgreSQL"],
-      github: "#",
+      title: "MediaDock",
+      description: "This repository contains the backend of a full-stack video-sharing platform built using Node.js and MongoDB. It powers features such as video uploads, user authentication, likes/dislikes, comments, playlists, subscriptions, and tweet-like short messages.",
+      image: img3,
+      technologies: ["NodeJS", "ExpressJS"," cookie-parser", "MongoDB",  "Mongoose ODM"],
+      github: "https://github.com/Arijitttt/MediaDock",
       live: "#"
     },
     {
-      title: "Data Visualization Dashboard",
-      description: "Interactive dashboard for data visualization with real-time updates, charts, and analytics. Built with modern React and D3.js.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-      technologies: ["React", "D3.js", "TypeScript", "Firebase"],
-      github: "#",
+      title: "Thermalytics",
+      description: "Developed Thermo-Insights, a web-based tool for preliminary health diagnostics that analyzes thermal images, generates detailed PDF reports, converts greyscale images to heatmaps, and enhances accuracy using generative AI, including integration with the Gemini API.",
+      image: img2,
+      technologies: ["React", "Python", "Flask", "genAI"],
+      github: "https://github.com/Arijitttt/thermal_insight",
       live: "#"
     }
   ];

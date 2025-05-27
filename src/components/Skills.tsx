@@ -1,19 +1,28 @@
 
 import { motion } from "framer-motion";
+import { title } from "process";
 
 export const Skills = () => {
   const skillCategories = [
     {
+      title: "Languages",
+      skills: ["JavaScript","Python", "Java", "C", "SQL"]
+    },
+    {
       title: "Frontend",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Framer Motion"]
+      skills: ["React", "Next.js", "Tailwind CSS", "Three.js", "Framer Motion"]
     },
     {
       title: "Backend",
-      skills: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "Redis"]
+      skills: ["Node.js", "Express", "Python", "PostgreSQL","Flask"]
     },
     {
       title: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "Figma", "Webpack", "Jest"]
+      skills: ["Git", "Docker", "Postman"]
+    },
+    {
+      title: "Databases",
+      skills: [, "MongoDB","MySQL","PostgreSQL","NeonDB"]
     }
   ];
 
