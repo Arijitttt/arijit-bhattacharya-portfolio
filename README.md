@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# 🚀 Portfolio - Arijit Bhattacharya
 
-## Project info
+Welcome to my personal portfolio! I'm a **Full Stack Web Developer** and **Competitive Programmer** with a passion for building clean, scalable web applications and solving real-world problems using elegant code.
 
-**URL**: https://lovable.dev/projects/f61f49fe-42a0-4d37-83f7-2b60910bcafb
+---
 
-## How can I edit this code?
+## 🌟 About Me
 
-There are several ways of editing your application.
+I'm a dedicated developer with strong experience in both frontend and backend development. With 100+ problems solved on **LeetCode** and a solid foundation in **Python** and **Data Structures & Algorithms**, I bring efficient problem-solving into practical, high-performance web solutions.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f61f49fe-42a0-4d37-83f7-2b60910bcafb) and start prompting.
+## 🔧 Technologies & Tools
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: HTML, CSS, JavaScript, React.js, Tailwind CSS, Next.js
+- **Backend**: Node.js, Express.js, Flask, Python  
+- **Database**: MongoDB, MySQL,NeonDB
+- **Version Control**: Git, GitHub
+- **APIs & Tools**: Google Maps API, Gemini API, REST APIs  
+- **Other**: Docker, Vite, Postman, VSCode  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💼 Projects Showcase
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔹 [EcoNav](https://github.com/Arijitttt/EcoNav)
+A web-based navigation system that offers eco-friendly routes using Google Maps API, calculates CO2 emissions based on vehicle engine data, and promotes sustainable travel.
 
-Follow these steps:
+### 🔹 Thermo-Insights
+A tool for preliminary health diagnostics using thermal image analysis. It generates PDF reports, enhances thermal images with heatmaps, and integrates with Gemini API for smart diagnostics.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔹 Video-Sharing Platform (Backend)
+Backend for a full-stack video platform supporting uploads, likes/dislikes, comments, playlists, subscriptions, and short tweets. Built with Node.js and MongoDB.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧠 Competitive Programming
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- Solved **100+ problems** on [LeetCode](https://leetcode.com/)  
+- Proficient in **Python**, with a strong grasp of algorithms and data structures  
+- Experience with real-time problem solving and performance optimization
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📫 Contact Me
 
-**Use GitHub Codespaces**
+Feel free to connect with me for collaboration, freelance opportunities, or tech discussions:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- 📧 Email: [abhattacharya030@gmail.com]  
+- 🌐 Portfolio: [your-portfolio-url.com]  
+- 💼 LinkedIn: [[linkedin.com/in/yourprofile](https://www.linkedin.com/in/arijit-bhattacharya-997077237/)]  
+- 🐙 GitHub: [https://github.com/Arijitttt]
 
-## What technologies are used for this project?
+---
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f61f49fe-42a0-4d37-83f7-2b60910bcafb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
