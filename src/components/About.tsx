@@ -30,7 +30,7 @@ export const About = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-6">
             About Me
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -48,9 +48,9 @@ export const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
               whileHover={{ scale: 1.05 }}
-              className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300"
+              className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300"
             >
-              <div className="text-blue-400 mb-4">{feature.icon}</div>
+              <div className="text-purple-400 mb-4">{feature.icon}</div>
               <h3 className="text-xl font-semibold text-white mb-3">{feature.title}</h3>
               <p className="text-gray-400">{feature.description}</p>
             </motion.div>
