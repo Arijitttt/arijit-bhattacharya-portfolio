@@ -29,7 +29,7 @@ export const Navigation = () => {
       animate={{ y: 0 }}
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-slate-900/95 backdrop-blur-sm border-b border-purple-500/20"
+          ? "bg-slate-900/95 backdrop-blur-sm border-b border-blue-500/20"
           : "bg-transparent"
       }`}
     >
@@ -37,7 +37,7 @@ export const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"
+            className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"
           >
             Arijit Bhattacharya
           </motion.div>
@@ -50,10 +50,10 @@ export const Navigation = () => {
                 href={item.href}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className="text-gray-300 hover:text-purple-400 transition-colors duration-200 relative group"
+                className="text-gray-300 hover:text-blue-400 transition-colors duration-200 relative group"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-400 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full"></span>
               </motion.a>
             ))}
           </div>
@@ -62,7 +62,7 @@ export const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-300 hover:text-purple-400"
+              className="text-gray-300 hover:text-blue-400"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -82,7 +82,7 @@ export const Navigation = () => {
                 key={item.name}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="block py-2 text-gray-300 hover:text-purple-400 transition-colors duration-200"
+                className="block py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
               >
                 {item.name}
               </a>

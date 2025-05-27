@@ -32,7 +32,7 @@ export const Hero = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent"
+            className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 via-cyan-400 to-teal-400 bg-clip-text text-transparent"
           >
             Arijit Bhattacharya
           </motion.h1>
@@ -56,7 +56,7 @@ export const Hero = () => {
               href="mailto:abhattacharya030@gmail.com"
               whileHover={{ scale: 1.1, rotate: 5 }}
               whileTap={{ scale: 0.95 }}
-              className="p-3 bg-purple-600/20 backdrop-blur-sm rounded-full border border-purple-500/30 text-purple-400 hover:bg-purple-600/30 transition-all duration-300"
+              className="p-3 bg-blue-600/20 backdrop-blur-sm rounded-full border border-blue-500/30 text-blue-400 hover:bg-blue-600/30 transition-all duration-300"
             >
               <Mail size={24} />
             </motion.a>
@@ -64,7 +64,7 @@ export const Hero = () => {
               href="tel:8420721005"
               whileHover={{ scale: 1.1, rotate: -5 }}
               whileTap={{ scale: 0.95 }}
-              className="p-3 bg-blue-600/20 backdrop-blur-sm rounded-full border border-blue-500/30 text-blue-400 hover:bg-blue-600/30 transition-all duration-300"
+              className="p-3 bg-cyan-600/20 backdrop-blur-sm rounded-full border border-cyan-500/30 text-cyan-400 hover:bg-cyan-600/30 transition-all duration-300"
             >
               <Phone size={24} />
             </motion.a>
@@ -88,7 +88,7 @@ export const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-semibold shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
+              className="px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-full font-semibold shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View My Work
@@ -107,12 +107,12 @@ export const Hero = () => {
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 border-2 border-purple-400/50 rounded-full flex justify-center"
+          className="w-6 h-10 border-2 border-blue-400/50 rounded-full flex justify-center"
         >
           <motion.div
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
-            className="w-1 h-3 bg-purple-400 rounded-full mt-2"
+            className="w-1 h-3 bg-blue-400 rounded-full mt-2"
           />
         </motion.div>
       </motion.div>

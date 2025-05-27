@@ -63,7 +63,7 @@ export const Contact = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-6">
             Let's Work Together
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
@@ -91,9 +91,9 @@ export const Contact = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ scale: 1.02 }}
-                className="flex items-center space-x-4 p-4 bg-slate-800/50 backdrop-blur-sm rounded-lg border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300"
+                className="flex items-center space-x-4 p-4 bg-slate-800/50 backdrop-blur-sm rounded-lg border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300"
               >
-                <div className="text-purple-400">{info.icon}</div>
+                <div className="text-blue-400">{info.icon}</div>
                 <div>
                   <p className="text-sm text-gray-400">{info.label}</p>
                   <p className="text-white font-medium">{info.value}</p>
@@ -107,7 +107,7 @@ export const Contact = () => {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-purple-500/20"
+            className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-blue-500/20"
           >
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -121,7 +121,7 @@ export const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="bg-slate-700/50 border-purple-500/30 text-white placeholder-gray-400 focus:border-purple-400"
+                  className="bg-slate-700/50 border-blue-500/30 text-white placeholder-gray-400 focus:border-blue-400"
                   placeholder="Your name"
                 />
               </div>
@@ -137,7 +137,7 @@ export const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="bg-slate-700/50 border-purple-500/30 text-white placeholder-gray-400 focus:border-purple-400"
+                  className="bg-slate-700/50 border-blue-500/30 text-white placeholder-gray-400 focus:border-blue-400"
                   placeholder="your@email.com"
                 />
               </div>
@@ -153,7 +153,7 @@ export const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="bg-slate-700/50 border-purple-500/30 text-white placeholder-gray-400 focus:border-purple-400 resize-none"
+                  className="bg-slate-700/50 border-blue-500/30 text-white placeholder-gray-400 focus:border-blue-400 resize-none"
                   placeholder="Tell me about your project..."
                 />
               </div>
@@ -161,7 +161,7 @@ export const Contact = () => {
               <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                 <Button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-3 rounded-lg transition-all duration-300"
+                  className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-semibold py-3 rounded-lg transition-all duration-300"
                 >
                   Send Message
                 </Button>
@@ -175,7 +175,7 @@ export const Contact = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-center mt-16 pt-8 border-t border-purple-500/20"
+          className="text-center mt-16 pt-8 border-t border-blue-500/20"
         >
           <p className="text-gray-400">
             © 2024 Arijit Bhattacharya. Built with ❤️ using React, Three.js & Tailwind CSS.
