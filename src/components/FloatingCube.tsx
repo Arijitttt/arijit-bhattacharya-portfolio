@@ -22,7 +22,7 @@ export const FloatingCube = ({ position }: FloatingCubeProps) => {
     <mesh ref={meshRef} position={position}>
       <boxGeometry args={[1, 1, 1]} />
       <meshStandardMaterial
-        color="#a855f7"
+        color="#8b5cf6"
         transparent
         opacity={0.6}
         wireframe={Math.random() > 0.5}
