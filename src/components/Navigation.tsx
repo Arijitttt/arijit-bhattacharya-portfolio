@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
@@ -19,6 +18,7 @@ export const Navigation = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
+    { name: "Achievements", href: "#achievements" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
