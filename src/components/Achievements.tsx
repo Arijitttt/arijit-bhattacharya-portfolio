@@ -1,9 +1,14 @@
-
 import { motion } from "framer-motion";
 import { Trophy, Award, Medal, Code, Target, Users } from "lucide-react";
 
 export const Achievements = () => {
   const achievements = [
+    {
+      icon: <Users className="w-8 h-8" />,
+      title: "SPYDER Event Coordinator",
+      description: "Coordinated SPYDER, the Web Development event at UEM Kolkata's Ureckon, overseeing registration of 100+ participants",
+      category: "Leadership"
+    },
     {
       icon: <Code className="w-8 h-8" />,
       title: "100+ LeetCode Problems",
@@ -33,12 +38,6 @@ export const Achievements = () => {
       title: "Performance Optimization",
       description: "Optimized applications for better performance and user experience",
       category: "Development"
-    },
-    {
-      icon: <Users className="w-8 h-8" />,
-      title: "Modern Frontend",
-      description: "Created responsive, interactive UIs using React, Next.js, and advanced CSS",
-      category: "Frontend"
     }
   ];
 
