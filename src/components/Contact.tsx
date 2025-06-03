@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { toast } from "sonner";
+import Map from "./Map";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -49,7 +50,7 @@ export const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "India",
+      value: "Kolkata, India",
       href: "#"
     }
   ];
@@ -100,6 +101,16 @@ export const Contact = () => {
                 </div>
               </motion.a>
             ))}
+
+            {/* Map Section */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+            >
+              <h4 className="text-lg font-semibold text-white mb-4">Location</h4>
+              <Map />
+            </motion.div>
           </motion.div>
 
           {/* Contact Form */}
